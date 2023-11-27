@@ -10,6 +10,6 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@mastera
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
-          name:retswaew6t7/partt
+          name: retswaew6t7/partt
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
